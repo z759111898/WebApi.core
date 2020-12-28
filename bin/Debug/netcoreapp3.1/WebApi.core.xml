@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi.core</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.core.Common.Token.GetJWT(WebApi.core.Common.TokenModel)">
+            <summary>
+            生成JWT字符串
+            </summary>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="P:WebApi.core.Common.TokenModel.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:WebApi.core.Common.TokenModel.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:WebApi.core.Common.TokenModel.Phone">
+            <summary>
+            手机
+            </summary>
+        </member>
+        <member name="P:WebApi.core.Common.TokenModel.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:WebApi.core.Common.TokenModel.Sub">
+            <summary>
+            身份
+            </summary>
+        </member>
+        <member name="M:WebApi.core.Controllers.HealthyController.GetHeart">
+            <summary>
+            心跳检测
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.core.Controllers.LoginController.Login(System.String)">
+            <summary>
+            测试
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.core.Controllers.LoginController.GetJwtToken">
+            <summary>
+            获取Token信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.core.Controllers.TestController.Test(System.String)">
+            <summary>
+            测试接口
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
